@@ -2,18 +2,18 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
-// Components for Login and Signup pages
+
 const Login = () => {
   return (
     <div className="page-container">
       <h1>Login</h1>
-      {/* Login form */}
+      
       <form>
         <input type="text" placeholder="Username" />
         <input type="password" placeholder="Password" />
         <button type="submit">Login</button>
       </form>
-      {/* Link to go back to Flash Sale Countdown page */}
+      
       <Link to="/">
         <button className="back-to-sale-button">Go to Flash Sale</button>
       </Link>
@@ -25,13 +25,13 @@ const Signup = () => {
   return (
     <div className="page-container">
       <h1>Sign Up</h1>
-      {/* Sign up form */}
+      
       <form>
         <input type="text" placeholder="Username" />
         <input type="password" placeholder="Password" />
         <button type="submit">Sign Up</button>
       </form>
-      {/* Link to go back to Flash Sale Countdown page */}
+      
       <Link to="/">
         <button className="back-to-sale-button">Go to Flash Sale</button>
       </Link>
@@ -40,10 +40,10 @@ const Signup = () => {
 };
 
 const FlashSaleCountdown = () => {
-  const [countdown, setCountdown] = useState(120); // seconds (2 minutes default)
+  const [countdown, setCountdown] = useState(120); 
   const [products, setProducts] = useState([
     { id: 1, name: 'Laptop', available: true },
-    { id: 2, name: 'Phone', available: true }, // Set all products to available initially
+    { id: 2, name: 'Phone', available: true }, 
     { id: 3, name: 'I Pad', available: true },
   ]);
 

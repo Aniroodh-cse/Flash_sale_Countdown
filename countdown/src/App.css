@@ -1,13 +1,13 @@
-/* Global Styles */
+
 body {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
-  background-color: #f9f9f9; /* Soft light background color */
-  color: #333; /* Dark text color for readability */
+  background-color: #f9f9f9; 
+  color: #333; 
 }
 
-/* Flash Sale Countdown Page */
+
 .flash-sale-container {
   text-align: center;
   padding: 50px;
@@ -16,7 +16,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: linear-gradient(135deg, #f6d365, #fda085); /* Colorful gradient background */
+  background: orange; 
   border-radius: 10px;
   box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
 }
@@ -31,7 +31,7 @@ body {
 .countdown {
   font-size: 30px;
   margin-bottom: 20px;
-  color: #ff5722; /* A vibrant color for countdown */
+  color: #ff5722; 
   font-weight: 600;
 }
 
@@ -82,7 +82,7 @@ body {
   background-color: #ffebee;
 }
 
-/* Auth Buttons on Flash Sale Page */
+
 .auth-buttons {
   position: fixed;
   top: 20px;
@@ -107,14 +107,14 @@ body {
   color: white;
 }
 
-/* Login/Signup Page */
+
 .page-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: linear-gradient(135deg, #42e695, #3bb2b8); /* Cool gradient for login/signup */
+  background: orange; 
   color: white;
 }
 
@@ -125,7 +125,7 @@ h1 {
 }
 
 form {
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  background-color: rgba(0, 0, 0, 0.5); 
   padding: 30px;
   border-radius: 12px;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
@@ -148,7 +148,7 @@ input::placeholder {
   color: #888;
 }
 
-/* Button Styles */
+
 button {
   padding: 12px;
   font-size: 16px;
@@ -183,7 +183,7 @@ button:hover {
   background-color: #e64a19;
 }
 
-/* Mobile Responsiveness */
+
 @media screen and (max-width: 768px) {
   .flash-sale-container {
     padding: 30px;
